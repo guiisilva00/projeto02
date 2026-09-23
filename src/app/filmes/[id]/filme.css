@@ -1,0 +1,49 @@
+/* Estilização da tag main (o card do filme) */
+main {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 24px;
+    background-color: #000000;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+  }
+  
+  main img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  main h1 {
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-bottom: 8px;
+  }
+  
+  main h2 {
+    font-size: 1.1rem;
+    color: rgb(202, 202, 202);
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  main p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #d1d1d1;
+    margin-bottom: 20px;
+  }
+  
+  main h3 {
+    font-size: 0.9rem;
+    color: #e9e9e9;
+    font-weight: 400;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+  }
