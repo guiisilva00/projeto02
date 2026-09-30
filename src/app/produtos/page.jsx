@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import CardProduto from "@/components/CardProduto";
+import "./produtos.css"
 
 export default function Produtos() {
   const [listaProdutos, setListaProdutos] = useState([]);
