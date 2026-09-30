@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
+import Link from 'next/link';
 import "./produto.css";
 
 export default function Produto() {
@@ -22,7 +23,7 @@ export default function Produto() {
         <main className="pagina-produto">
             {produto !== null && (
                 <div className="card-detalhe-produto">
-                    <a className="voltar-produtos" href="/produtos">Voltar aos produtos</a>
+                    <Link className="voltar-produtos" href="/produtos">Voltar aos produtos</Link>                    
                     <img src={produto.thumbnail} alt={produto.title} />
                     <h1>{produto.title}</h1>
                     <p>{produto.description}</p>
