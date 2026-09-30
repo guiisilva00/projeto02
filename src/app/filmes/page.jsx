@@ -1,6 +1,5 @@
 "use client"
 
-// import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 import dados from "@/filmes.json"
 import CardFilme from '@/components/CardFilme';
